@@ -7,7 +7,7 @@ list.forEach((item, idx) => {
     hideAllItems();
 
     item.classList.add("active");
-    content[idx].classList.add("active");
+    content[idx].classList.add("show");
   });
 });
 function hideAllContents() {
