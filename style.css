@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 body {
-  background: #212121;
   background: linear-gradient(to right, #a399fb, #5b5b5b);
   display: flex;
   margin: 0;
@@ -20,7 +19,7 @@ body {
   width: 340px;
 }
 .phone .content {
-  /* opacity: 0; */
+  opacity: 0;
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -31,6 +30,7 @@ body {
 }
 .phone .content.show {
   opacity: 1;
+  visibility: visible;
 }
 nav {
   position: absolute;
